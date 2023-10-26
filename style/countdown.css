@@ -1,0 +1,42 @@
+
+#timer {
+    font-size: 6rem;
+  }
+
+  #progress-container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  #progress-bar {
+    width: 0;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 30px;
+  }
+
+#container{
+    height: 100vh;
+}
+
+input{
+    border: none;
+    max-width: 100px;
+    min-height: 75px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+input:focus{
+    border: 0px solid white;
+    outline: none;
+}
+label{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-left: 10px;
+}
